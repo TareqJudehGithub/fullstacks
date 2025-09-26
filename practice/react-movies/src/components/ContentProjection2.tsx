@@ -1,4 +1,4 @@
-export default function (props: ContentProjection2) {
+export default function ContentProjection2(props: ContentProjection2Props) {
 	return (
 		<>
 			<header>{props.header}</header>
@@ -8,7 +8,7 @@ export default function (props: ContentProjection2) {
 	);
 }
 
-interface ContentProjection2 {
+interface ContentProjection2Props {
 	header: React.ReactNode;
 	main: React.ReactNode;
 	footer: React.ReactNode;

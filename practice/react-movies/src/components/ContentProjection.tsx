@@ -1,4 +1,4 @@
-export default function (props: ContentProjectionProps) {
+export default function ContentProjection(props: ContentProjectionProps) {
 	return (
 		<>
 			<h3>Superior part</h3>
