@@ -10,6 +10,9 @@ import DynamicContentIf from "./components/DynamicContentIf";
 import Table from "./components/Table";
 import type { Person } from "./components/Person.model";
 import UseEffectExample from "./components/UseEffectExample";
+import UseContextExample from "./useContextExample/UseContextExample";
+import MemoizationExample from "./components/MemoizationExample";
+import ExampleMemoizationTable from "./memoization/ExampleMemoizationTable";
 
 const personList: Person[] = [
 	{ id: 1, fullName: "John Smith", department: "HR" },
@@ -100,7 +103,12 @@ function App() {
 							Display component
 							{display ? <UseEffectExample /> : ""}
 						</div>
+
+						<UseContextExample />
+						<MemoizationExample />
 					</>
+
+					// End of main
 				}
 				footer={
 					<>
@@ -108,6 +116,8 @@ function App() {
 					</>
 				}
 			></ContentProjection2>
+
+			<ExampleMemoizationTable />
 		</>
 	);
 }
