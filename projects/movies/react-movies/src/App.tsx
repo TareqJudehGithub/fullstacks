@@ -1,35 +1,63 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from "react";
+
+import MoviesList from "./features/movies/components/MoviesList";
+import type Movie from "./features/movies/models/movie.model";
 
 function App() {
-  const [count, setCount] = useState(0)
+	// States
+	// <AppState is the data type of movies>
+	const [movies, setMovies] = useState<AppState>({});
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+	useEffect(function () {
+		const inTheaters: Movie[] = [
+			{
+				id: 1,
+				title: "Alien",
+				poster:
+					"https://upload.wikimedia.org/wikipedia/en/c/c3/Alien_movie_poster.jpg",
+			},
+			{
+				id: 2,
+				title: "Predator",
+				poster:
+					"https://upload.wikimedia.org/wikipedia/en/9/95/Predator_Movie.jpg",
+			},
+		];
+
+		const upcomingReleases: Movie[] = [
+			{
+				id: 3,
+				title: "Avatar: Fire and Ash",
+				poster:
+					"https://upload.wikimedia.org/wikipedia/en/4/43/Avatar_Fire_and_Ash_first_poster.jpeg",
+			},
+			{
+				id: 4,
+				title: "Spider-Man: Brand New Day",
+				poster:
+					"https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Spider-Man_Brand_New_Day_logo.png/500px-Spider-Man_Brand_New_Day_logo.png",
+			},
+		];
+		// Wait two seconds before setting the state.
+		setTimeout(() => {
+			setMovies({ inTheaters, upcomingReleases });
+		}, 1000);
+	}, []);
+
+	return (
+		<>
+			<h3>In Theatres</h3>
+			<MoviesList movies={movies.inTheaters} />
+
+			<h3>Upcoming Releases</h3>
+			<MoviesList movies={movies.upcomingReleases} />
+		</>
+	);
 }
 
-export default App
+interface AppState {
+	inTheaters?: Movie[];
+	upcomingReleases?: Movie[];
+}
+
+export default App;
