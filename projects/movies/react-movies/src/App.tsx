@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import MoviesList from "./features/movies/components/MoviesList";
 import type Movie from "./features/movies/models/movie.model";
 
+import Button from "./features/movies/components/Button";
 function App() {
 	// States
 	// <AppState is the data type of movies>
@@ -45,13 +46,14 @@ function App() {
 	}, []);
 
 	return (
-		<>
+		<div className="container">
+			<Button>Details</Button>
 			<h3>In Theatres</h3>
 			<MoviesList movies={movies.inTheaters} />
 
 			<h3>Upcoming Releases</h3>
 			<MoviesList movies={movies.upcomingReleases} />
-		</>
+		</div>
 	);
 }
 
