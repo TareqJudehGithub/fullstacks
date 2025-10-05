@@ -1,19 +1,15 @@
-import { useEffect, useState } from "react";
+// React
+import { useState, useEffect } from "react";
 
+// Movies components
 import MoviesList from "./features/movies/components/MoviesList";
 import type Movie from "./features/movies/models/movie.model";
 
-import Button from "./features/movies/components/Button";
+// Other components
+import Button from "./components/Button";
+
 function App() {
 	// States
-	// <AppState is the data type of movies>
-
-	// Annotating parameters, but that would fire the "Movies list is empty msg."
-	// const [movies, setMovies] = useState<AppState>({
-	// 	inTheaters: [],
-	// 	upcomingReleases: [],
-	// });
-
 	const [movies, setMovies] = useState<AppState>({});
 
 	useEffect(function () {
@@ -32,7 +28,7 @@ function App() {
 			},
 		];
 
-		const upcomingReleases: Movie[] = [
+		const upComingReleases: Movie[] = [
 			{
 				id: 3,
 				title: "Avatar: Fire and Ash",
@@ -41,35 +37,30 @@ function App() {
 			},
 			{
 				id: 4,
-				title: "Spider-Man: Brand New Day",
+				title: "Predator: Badlands",
 				poster:
-					"https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Spider-Man_Brand_New_Day_logo.png/500px-Spider-Man_Brand_New_Day_logo.png",
+					"https://upload.wikimedia.org/wikipedia/en/9/90/Predator_Badlands_Poster.jpg",
 			},
 		];
-		// Wait 0.5 seconds before setting the state, so we can render Loading component.
 		setTimeout(() => {
-			setMovies({
-				inTheaters: inTheaters,
-				upcomingReleases: upcomingReleases,
-			});
-		}, 500);
+			setMovies({ inTheaters, upComingReleases });
+		}, 1000);
 	}, []);
 
 	return (
 		<div className="container">
-			<Button>Details</Button>
-			<h3>In Theatres</h3>
+			<Button>Click me</Button>
+			<h3>In Theaters</h3>
 			<MoviesList movies={movies.inTheaters} />
-
 			<h3>Upcoming Releases</h3>
-			<MoviesList movies={movies.upcomingReleases} />
+			<MoviesList movies={movies.upComingReleases} />
 		</div>
 	);
 }
 
 interface AppState {
 	inTheaters?: Movie[];
-	upcomingReleases?: Movie[];
+	upComingReleases?: Movie[];
 }
 
 export default App;

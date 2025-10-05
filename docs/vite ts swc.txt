@@ -31,8 +31,19 @@ Vite, TS, and SWC
 │  Yes                                (Choose 'Yes')
 
 
+An alternative way to install vite is by running:
+ $ npm create vite@latest my-react-ts-swc-app -- --template react-ts-swc
+ $ cd my-react-ts-swc-app
+ $ npm install
+ $ npm run dev
+
+Or 
+ $ npm install —save-dev @types/react @types/react-dom 
+
+
  2. Now, navigate to your newly created React project folder, and run:
   $ npm run dev
   This will start our React project.
+
  
   

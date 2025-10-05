@@ -1,5 +1,5 @@
 import React from "react";
-import Loading from "./Loading";
+import Loading from "../features/movies/components/Loading";
 
 export default function GenericList<T>(props: GenericListProps<T>) {
 	if (!props.list) {

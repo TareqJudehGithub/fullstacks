@@ -1,6 +1,6 @@
 import type Movie from "../models/movie.model";
 import DisplayMovie from "./DisplayMovie";
-import GenericList from "./GenericList";
+import GenericList from "../../../componets/GenericList";
 import styles from "./MoviesList.module.css";
 
 export default function MoviesList(props: MoviesListProps) {
