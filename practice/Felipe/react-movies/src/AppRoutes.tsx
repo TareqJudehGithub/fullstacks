@@ -10,6 +10,12 @@ import CreateMovie from "./features/movies/components/CreateMovie";
 import EditMovie from "./features/movies/components/EditMovie";
 import FilterMovies from "./features/movies/components/FilterMovies";
 import MovieDetails from "./features/movies/components/MovieDetails";
+import IndexActors from "./features/actors/components/IndexActors";
+import CreateActor from "./features/actors/components/CreateActor";
+import EditActor from "./features/actors/components/EditActor";
+import IndexTheaters from "./features/theaters/components/IndexTheaters";
+import CreateTheater from "./features/theaters/components/CreateTheater";
+import EditTheater from "./features/theaters/components/EditTheater";
 
 export default function AppRoutes() {
 	return (
@@ -22,11 +28,21 @@ export default function AppRoutes() {
 			</Route>
 
 			{/* <Route path="/movies" element={IndexMovies}> */}
-			<Route path="create" element={<CreateMovie />} />
-			<Route path="edit" element={<EditMovie />} />
-			<Route path="filter" element={<FilterMovies />} />
-			<Route path="movie" element={<MovieDetails />} />
+			<Route path="/movies/create" element={<CreateMovie />} />
+			<Route path="/movies/edit" element={<EditMovie />} />
+			<Route path="/movies/filter" element={<FilterMovies />} />
+			<Route path="/movie" element={<MovieDetails />} />
 			{/* </Route> */}
+
+			<Route path="/actors" element={<IndexActors />}>
+				<Route path="create" element={<CreateActor />} />
+				<Route path="edit" element={<EditActor />} />
+			</Route>
+
+			<Route path="/theaters" element={<IndexTheaters />}>
+				<Route path="create" element={<CreateTheater />} />
+				<Route path="edit" element={<EditTheater />} />
+			</Route>
 		</Routes>
 	);
 }
