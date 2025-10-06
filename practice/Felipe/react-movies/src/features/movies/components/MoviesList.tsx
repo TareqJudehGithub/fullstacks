@@ -1,5 +1,5 @@
 // React
-
+import type { JSX } from "react";
 // Components
 import DisplayMovie from "./DisplayMovie";
 
@@ -11,7 +11,7 @@ import styles from "./MoviesList.module.css";
 
 import GenericList from "../../../components/GenericList";
 
-export default function MoviesList(props: MoviesListProps) {
+export default function MoviesList(props: MoviesListProps): JSX.Element {
 	// In case moviesList is still loading or empty
 	return (
 		<GenericList list={props.movies}>

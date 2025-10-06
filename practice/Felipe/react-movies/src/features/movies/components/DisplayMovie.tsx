@@ -1,12 +1,11 @@
 // Models
+import type { JSX } from "react";
 import type Movie from "../models/movie.model";
 
 // Styling
 import styles from "./DisplayMovie.module.css";
 
-export default function DisplayMovie(
-	props: DisplayMovieProps
-): React.ReactNode {
+export default function DisplayMovie(props: DisplayMovieProps): JSX.Element {
 	// Destructuring variables from props.movie
 	const { id, title, poster } = props.movie;
 
