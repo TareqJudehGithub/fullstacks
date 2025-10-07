@@ -7,7 +7,7 @@ export default function IndexTheaters(): JSX.Element {
 			<NavLink className="btn btn-primary" to="create">
 				Create Theater
 			</NavLink>
-			<NavLink className="nav-link" to="edit">
+			<NavLink className="nav-link" to="edit/1">
 				Edit Theater
 			</NavLink>
 			<Outlet />

@@ -7,7 +7,7 @@ export default function IndexActors(): JSX.Element {
 			<NavLink className="btn btn-primary" to="create">
 				Create Actor
 			</NavLink>
-			<NavLink className="nav-link" to="edit">
+			<NavLink className="nav-link" to="edit/1">
 				Edit Actor
 			</NavLink>
 			<Outlet />

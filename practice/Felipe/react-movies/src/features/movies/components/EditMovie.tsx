@@ -1,5 +1,8 @@
 import type { JSX } from "react";
+import { useParams } from "react-router-dom";
 
 export default function EditMovie(): JSX.Element {
-	return <p>Edit Movie</p>;
+	const { id } = useParams();
+
+	return <p>Edit Movie: {id}</p>;
 }

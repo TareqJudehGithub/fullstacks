@@ -1,5 +1,9 @@
-// Models
+// React
 import type { JSX } from "react";
+// React Router
+import { NavLink } from "react-router-dom";
+
+// Models
 import type Movie from "../models/movie.model";
 
 // Styling
@@ -9,16 +13,16 @@ export default function DisplayMovie(props: DisplayMovieProps): JSX.Element {
 	// Destructuring variables from props.movie
 	const { id, title, poster } = props.movie;
 
-	const blindLink = () => `/movie/${id}`;
+	const moviePage = () => `/movie/${id}`;
 
 	return (
 		<div className={styles.div}>
-			<a href={blindLink()}>
+			<NavLink to={moviePage()}>
 				<img src={poster} alt="Alien movie poster" />
-			</a>
-			<a href={blindLink()}>
+			</NavLink>
+			<NavLink to={moviePage()}>
 				<p>{title}</p>
-			</a>
+			</NavLink>
 		</div>
 	);
 }
