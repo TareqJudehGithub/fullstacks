@@ -69,7 +69,7 @@ export default function LandingPage() {
 			setMovies({ inTheaters, upComingReleases });
 
 			//setActors({ actors });
-		}, 1000);
+		}, 500);
 	}, []);
 
 	return (
