@@ -1,0 +1,9 @@
+List of libraries and packages used to build react-movies project
+
+Lib/package           Version
+ Vite                 7.1.7       latest version - Sets up React, env and needed packages.            
+ react-router-dom     7.9.3       latest version - Routing
+ react-hook-forms     7.64.0      latest version - Forms
+ yup                  1.7.1       latest version - Forms validation
+ @hookform/resolvers  5.2.2       latest version - Connection between react-hook-forms and yup
+ bootstrap            5.3.8       latest version   Styling 

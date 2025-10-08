@@ -1,0 +1,113 @@
+React Hook Form and Yup
+ - An excellent way to build users form and capture data.
+ - React Hook Form benefits from Yup for fields validation, so 
+   we will be using both here.
+ - We will also be needing @hookform/resolvers in order to 
+   establish a connection between react-hook-form and yup.
+
+Installation
+ $ npm i react-hook-form
+ $ npm i yup
+ $ npm i @hookform/resolvers
+
+
+
+Setup and configuration
+
+In the form component:
+
+imports:
+import { useForm, type SubmitHandler } from "react-hook-form";
+
+// Yup validation
+import * as yup from "yup";
+
+// Connection between react hook form and yup
+import { yupResolver } from "@hookform/resolvers/yup";
+
+
+
+1. First we create the Form State variable:
+ const {
+  register, 
+  SubmitHandler, 
+* formState: {errors, isValid}
+  } = useForm<FormType>({
+    resolver: yupResolver(validationRules),
+*   mode: "onChange
+  });
+
+1A. Create an interface which will serve as useForm generic data type:
+interface FormType {
+  name: string
+}
+2. After that, capture the user's input using register:
+  <div className="form-group">
+            <label htmlFor="name">Name</label>
+            <input
+              {...register("name")}
+              autoComplete="off"
+              className="form-control"
+            />
+
+3. Setup a validation rules for each input field using Yup, outside the component:
+  const validationRules = yup.object({
+    name: yup.string().required("Name field is required!"),
+  })
+
+4. Next, in the input field element, and right below it, add the validation message.
+  {errors.name && <p>{errors.name.message}<p/>}
+   
+
+* notes
+
+mode: "onChange"
+ - mode control when exactly the error message can appear. after submitting, when
+   typing, etc.. 
+
+formState
+  formState: errors, isValid, isSubmitting
+    - errors, displays or renders validation error messages to the UI.
+    - isValid, a boolean value that can conditionally-control rendering other
+      element in the UI.
+    - isSubmitting, a boolean that value is true when the form is submitting, and false 
+      when it is not.
+
+
+Built-in validation
+
+- We start by creating a new component
+- src
+ - validation
+  - firstLetterUppercase.ts
+
+
+  export default function firstLetterUppercase() {
+    return {
+      name: "first-letter-uppercase",
+      message: "The first letter should be an uppercase",
+      test: (value: string | undefined) => {
+        if (value && value.length > 0) {
+          const firstLetterUpperCase = value.substring(0, 1);
+          return firstLetter === firstLetter.toUpperCase();
+        }
+        return true;
+      }
+    }
+  }
+
+
+	{/* If the form is not valid to submit, or is submitting, then disable the Button. */}
+					<Button type="submit" disabled={isSubmitting}>
+						{isSubmitting ? "Sending..." : "Send"}
+					</Button>
+
+
+Finally, in the form component we update the generic value type (the interface), with
+'test' function:
+ const validationRules = yup.object {
+  name: yup
+    .string()
+    .required("Name is required!")
+    .test(firstLetterUpperCase())
+ }

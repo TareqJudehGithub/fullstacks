@@ -6,9 +6,10 @@ export default function Button(props: ButtonProps): JSX.Element {
 			className="btn btn-primary"
 			disabled={props.disabled ?? false} // Enabled by default
 			onClick={props.onClick}
-			// If type (button or submit) is present, use them as type, if not then
+			/* If type (button or submit) is present, use them as type, if not then
 			// use "button"
-			// using Nullish coalescing operator
+			 using Nullish coalescing operator
+			*/
 			type={props.type ?? "button"}
 			//type={props.type ? props.type : "button"}   Ternary with ? and :
 		>
