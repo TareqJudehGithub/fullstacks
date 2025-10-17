@@ -1,17 +1,19 @@
 // React
 import { useEffect, useState, type JSX } from "react";
 import type { SubmitHandler } from "react-hook-form";
-
-// React Router
 import { useParams } from "react-router-dom";
+
+// Model
 import type CreateGenre from "../models/CreateGenre.model";
+
+// Components
 import GenreForm from "./GenreForm";
 import Loading from "../../../components/Loading";
 
 export default function EditGenre(): JSX.Element {
 	const { id } = useParams();
 	// model will be undefined at the beginning by default, thats why we use a type
-	// union here and set model type and value to undefined at the beginning.
+	// union here and set model type and value to 'undefined' at the beginning.
 	const [model, setModel] = useState<CreateGenre | undefined>(undefined);
 
 	useEffect(() => {

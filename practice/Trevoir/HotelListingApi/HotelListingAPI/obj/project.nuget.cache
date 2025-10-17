@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "z2oNIur4ulY=",
+  "success": true,
+  "projectFilePath": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\HotelListingApi\\HotelListingAPI\\HotelListingAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER10\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.10\\microsoft.aspnetcore.openapi.9.0.10.nupkg.sha512",
+    "C:\\Users\\USER10\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
