@@ -1,0 +1,12 @@
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\bin\Debug\net8.0\EntityFrameWorkCore.Domain.deps.json
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\bin\Debug\net8.0\EntityFrameWorkCore.Domain.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\bin\Debug\net8.0\EntityFrameWorkCore.Domain.pdb
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.AssemblyInfoInputs.cache
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.AssemblyInfo.cs
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.csproj.CoreCompileInputs.cache
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.sourcelink.json
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\refint\EntityFrameWorkCore.Domain.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\EntityFrameWorkCore.Domain.pdb
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Domain\obj\Debug\net8.0\ref\EntityFrameWorkCore.Domain.dll

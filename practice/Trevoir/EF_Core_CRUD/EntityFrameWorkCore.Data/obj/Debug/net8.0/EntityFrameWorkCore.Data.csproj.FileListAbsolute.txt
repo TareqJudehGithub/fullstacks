@@ -1,0 +1,16 @@
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\bin\Debug\net8.0\EntityFrameWorkCore.Data.deps.json
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\bin\Debug\net8.0\EntityFrameWorkCore.Data.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\bin\Debug\net8.0\EntityFrameWorkCore.Data.pdb
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\bin\Debug\net8.0\EntityFrameWorkCore.Domain.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\bin\Debug\net8.0\EntityFrameWorkCore.Domain.pdb
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.csproj.AssemblyReference.cache
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.AssemblyInfoInputs.cache
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.AssemblyInfo.cs
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.csproj.CoreCompileInputs.cache
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.sourcelink.json
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFr.5C10F6FB.Up2Date
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\refint\EntityFrameWorkCore.Data.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.pdb
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\ref\EntityFrameWorkCore.Data.dll

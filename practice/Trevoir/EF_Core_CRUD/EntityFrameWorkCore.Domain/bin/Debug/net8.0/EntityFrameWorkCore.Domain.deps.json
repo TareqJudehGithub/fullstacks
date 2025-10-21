@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "EntityFrameWorkCore.Domain/1.0.0": {
+        "runtime": {
+          "EntityFrameWorkCore.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EntityFrameWorkCore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
