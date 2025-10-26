@@ -1,0 +1,9 @@
+SELECT
+
+SELECT Top(2) *
+FROM Lecturers
+GO
+
+ - Top(2) returns only the 1st 2 records.
+
+ 

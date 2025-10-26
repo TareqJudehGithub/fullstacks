@@ -3,16 +3,20 @@ Tables
    is made up of rows and columns.
  - Each table contains rows and columns. A table is a particular area 
    for storing objects (en entity).
+ 
  - An entity is another name of a table.
  - Rows and records containing data points on an object.
  - Columns contain data points (text, numbers, dates, etc..)
+ - Attributes are another name of columns.
+ 
  - Each row or record should be uniquely identified using a Primary
    Key (PK).
  - PK is a unique value.
  - a PK should never repeat.
  - Every table should have a PK.
  - In SQL Server, we use IDENTITY to automatically generate a PK values.
+ 
  - Indexes (aka foreign keys FK) are other unique values that a record can have.
- - They increase data lookup speed, but can reduce insert speed.
+ - FK increases data lookup speed, but can reduce insert speed.
 
 
