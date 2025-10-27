@@ -1,0 +1,8 @@
+Database Relationship
+ - A situation that exists between two tables when on table had data that references
+   to another table.
+ 
+ - One to one
+ - One to many
+ - Many to Many
+ 

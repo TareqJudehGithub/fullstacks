@@ -1,0 +1,24 @@
+Normalization
+ - The process of removing  INSERT, UPDATE, and DELETE *anomalies from data
+   tables.
+ - This process leads to multiple tables that have relationships.
+
+ - Normalization has 4 main stages
+  - First Normal Form  (1NF)
+  - Second Normal Form (2NF)
+  - Third Normal Form  (3NF)
+  - Boyce Cod Normal Form (BCNF)
+    - More tables are introduced
+    - All tables have Primary Keys (PK)
+    - No redundancy in tables.
+        - We create reference between tables with a relationship.
+        - We establish dependencies between tables
+    - We have achieved Referential integrity
+    - We have removed all *anomalies.   
+
+
+
+  - A database anomaly is an inconsistency or error that occurs in a database 
+    due to poor design. 
+  - Database anomaly can lead to issues like data redundancy, incorrect 
+    information, or data loss. 
