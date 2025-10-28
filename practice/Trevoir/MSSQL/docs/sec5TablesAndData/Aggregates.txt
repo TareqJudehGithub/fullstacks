@@ -1,0 +1,11 @@
+Aggregate Functions
+
+ DISTINCT
+  - Removed Duplicate data
+ GROUP BY
+  - Removed Duplicate data
+  - Never GROUP BY a unique columns (like Id)
+ COUNT
+
+ SUM
+
