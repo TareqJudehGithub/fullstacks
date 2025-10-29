@@ -1,0 +1,6 @@
+Using CAST() or CONVERT() to a specific DECIMAL or NUMERIC type:
+This is the most common and recommended approach for precise control over decimal places. You can cast the result of AVG() to a DECIMAL(precision, scale) or NUMERIC(precision, scale) data type, where precision is the total number of digits and scale is the number of digits after the decimal point.
+Code
+
+SELECT CAST(AVG(YourColumn) AS DECIMAL(10, 2)) AS AverageValue
+FROM YourTable;
