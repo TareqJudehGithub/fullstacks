@@ -190,4 +190,23 @@ async Task ExecuteUpdate()
         );
     Console.WriteLine(context.ChangeTracker.DebugView.LongView);
 }
-await ExecuteUpdate();
+// await ExecuteUpdate();
+
+
+
+async Task InsertNewTeam()
+{
+    var newTeam = new Team
+    {
+        Name = "Inter Milan",
+        Country = "Italy",
+        CreatedBy = "Admin",
+        CreatedDate = DateTime.Today
+    };
+
+    var teams = await context.Teams.AddAsync(newTeam);
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+    await context.SaveChangesAsync();
+
+}
+await InsertNewTeam();

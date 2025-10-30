@@ -31,19 +31,113 @@ namespace EntityFrameWorkCore.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Country")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Coaches");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkCore.Domain.League", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Leagues");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Country = "Italy",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Serie A"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Country = "England",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "EPL"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Country = "Spain",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "La Liga"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Country = "France",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Ligue 1"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Country = "Netherlands",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Eredivisie"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Country = "Germany",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bundesliga"
+                        });
                 });
 
             modelBuilder.Entity("EntityFrameWorkCore.Domain.Team", b =>
@@ -54,18 +148,37 @@ namespace EntityFrameWorkCore.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("CoachId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Country")
-                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
+                    b.Property<int?>("LeagueId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("LeagueId");
+
+                    b.HasIndex("Name")
+                        .IsUnique()
+                        .HasFilter("[Name] IS NOT NULL");
 
                     b.ToTable("Teams");
 
@@ -73,52 +186,163 @@ namespace EntityFrameWorkCore.Data.Migrations
                         new
                         {
                             Id = 1,
+                            CoachId = 0,
                             Country = "Italy",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "AC Milan"
                         },
                         new
                         {
                             Id = 2,
+                            CoachId = 0,
                             Country = "Italy",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Inter Milan"
                         },
                         new
                         {
                             Id = 3,
+                            CoachId = 0,
                             Country = "Italy",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Juventus"
                         },
                         new
                         {
                             Id = 4,
+                            CoachId = 0,
                             Country = "England",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Manchester United"
                         },
                         new
                         {
                             Id = 5,
+                            CoachId = 0,
                             Country = "England",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Manchester City"
                         },
                         new
                         {
                             Id = 6,
+                            CoachId = 0,
                             Country = "England",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Chelsea"
                         },
                         new
                         {
                             Id = 7,
+                            CoachId = 0,
                             Country = "England",
-                            CreatedDate = new DateTime(2025, 10, 21, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Liverpool"
                         });
+                });
+
+            modelBuilder.Entity("Match", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AwayTeamId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AwayTeamScore")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Country")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("HomeTeamId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("HomeTeamScore")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal>("TicketPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AwayTeamId");
+
+                    b.HasIndex("HomeTeamId");
+
+                    b.ToTable("Matches");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkCore.Domain.Team", b =>
+                {
+                    b.HasOne("EntityFrameWorkCore.Domain.League", "League")
+                        .WithMany("Teams")
+                        .HasForeignKey("LeagueId");
+
+                    b.Navigation("League");
+                });
+
+            modelBuilder.Entity("Match", b =>
+                {
+                    b.HasOne("EntityFrameWorkCore.Domain.Team", "AwayTeam")
+                        .WithMany("AwayMatches")
+                        .HasForeignKey("AwayTeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("EntityFrameWorkCore.Domain.Team", "HomeTeam")
+                        .WithMany("HomeMatches")
+                        .HasForeignKey("HomeTeamId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("AwayTeam");
+
+                    b.Navigation("HomeTeam");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkCore.Domain.League", b =>
+                {
+                    b.Navigation("Teams");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkCore.Domain.Team", b =>
+                {
+                    b.Navigation("AwayMatches");
+
+                    b.Navigation("HomeMatches");
                 });
 #pragma warning restore 612, 618
         }

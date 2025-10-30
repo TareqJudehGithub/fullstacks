@@ -1,13 +1,16 @@
 ﻿using EntityFrameWorkCore.Domain;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace EntityFrameWorkCore.Data
 {
     public class FootballLeagueDbContext : DbContext
     {
-        // DbSets
+        // DbSets (entities)
         public DbSet<Team> Teams { get; set; }
         public DbSet<Coach> Coaches { get; set; }
+        public DbSet<Match> Matches { get; set; }
+        public DbSet<League> Leagues { get; set; }
 
         // Connection string
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -20,57 +23,13 @@ namespace EntityFrameWorkCore.Data
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Team>().HasData(
-                new Team
-                {
-                    Id = 1,
-                    Name = "AC Milan",
-                    Country = "Italy",
-                    CreatedDate = DateTime.Today
-                },
-                 new Team
-                 {
-                     Id = 2,
-                     Name = "Inter Milan",
-                     Country = "Italy",
-                     CreatedDate = DateTime.Today
-                 },
-                  new Team
-                  {
-                      Id = 3,
-                      Name = "Juventus",
-                      Country = "Italy",
-                      CreatedDate = DateTime.Today
-                  },
-                   new Team
-                   {
-                       Id = 4,
-                       Name = "Manchester United",
-                       Country = "England",
-                       CreatedDate = DateTime.Today
-                   },
-                    new Team
-                    {
-                        Id = 5,
-                        Name = "Manchester City",
-                        Country = "England",
-                        CreatedDate = DateTime.Today
-                    },
-                     new Team
-                     {
-                         Id = 6,
-                         Name = "Chelsea",
-                         Country = "England",
-                         CreatedDate = DateTime.Today
-                     },
-                      new Team
-                      {
-                          Id = 7,
-                          Name = "Liverpool",
-                          Country = "England",
-                          CreatedDate = DateTime.Today
-                      }
-                );
+            // Look for any/ALL IEntityTypeConfiguration<> Interface in 
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            // Or one by one
+            //modelBuilder.ApplyConfiguration(new TeamConfiguration());
+            //modelBuilder.ApplyConfiguration(new LeagueConfiguration());
+
 
         }
     }

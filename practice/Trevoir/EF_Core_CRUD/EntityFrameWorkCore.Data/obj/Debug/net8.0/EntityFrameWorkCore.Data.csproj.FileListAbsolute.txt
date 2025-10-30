@@ -14,3 +14,5 @@ E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\
 E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\refint\EntityFrameWorkCore.Data.dll
 E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.pdb
 E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\ref\EntityFrameWorkCore.Data.dll
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\bin\Debug\net8.0\EntityFrameWorkCore.Data.runtimeconfig.json
+E:\WebDev\fullstacks\practice\Trevoir\EF_Core_CRUD\EntityFrameWorkCore.Data\obj\Debug\net8.0\EntityFrameWorkCore.Data.genruntimeconfig.cache
