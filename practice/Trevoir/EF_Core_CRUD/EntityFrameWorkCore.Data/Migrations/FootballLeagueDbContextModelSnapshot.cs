@@ -51,6 +51,35 @@ namespace EntityFrameWorkCore.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Coaches");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Country = "Italy",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Carlo Ancelotti"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Country = "Portugal",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Jose Morinho"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Country = "England",
+                            CreatedBy = "Admin",
+                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Sir Alex Ferugson"
+                        });
                 });
 
             modelBuilder.Entity("EntityFrameWorkCore.Domain.League", b =>
@@ -89,7 +118,7 @@ namespace EntityFrameWorkCore.Data.Migrations
                             Id = 1,
                             Country = "Italy",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2025, 11, 1, 0, 0, 0, 0, DateTimeKind.Local),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Serie A"
                         },
@@ -98,7 +127,7 @@ namespace EntityFrameWorkCore.Data.Migrations
                             Id = 2,
                             Country = "England",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2025, 11, 1, 0, 0, 0, 0, DateTimeKind.Local),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "EPL"
                         },
@@ -107,7 +136,7 @@ namespace EntityFrameWorkCore.Data.Migrations
                             Id = 3,
                             Country = "Spain",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2025, 11, 1, 0, 0, 0, 0, DateTimeKind.Local),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "La Liga"
                         },
@@ -116,7 +145,7 @@ namespace EntityFrameWorkCore.Data.Migrations
                             Id = 4,
                             Country = "France",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2025, 11, 1, 0, 0, 0, 0, DateTimeKind.Local),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Ligue 1"
                         },
@@ -125,7 +154,7 @@ namespace EntityFrameWorkCore.Data.Migrations
                             Id = 5,
                             Country = "Netherlands",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2025, 11, 1, 0, 0, 0, 0, DateTimeKind.Local),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Eredivisie"
                         },
@@ -134,7 +163,7 @@ namespace EntityFrameWorkCore.Data.Migrations
                             Id = 6,
                             Country = "Germany",
                             CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Local),
+                            CreatedDate = new DateTime(2025, 11, 1, 0, 0, 0, 0, DateTimeKind.Local),
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Bundesliga"
                         });
@@ -174,6 +203,9 @@ namespace EntityFrameWorkCore.Data.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CoachId")
+                        .IsUnique();
+
                     b.HasIndex("LeagueId");
 
                     b.HasIndex("Name")
@@ -186,20 +218,22 @@ namespace EntityFrameWorkCore.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CoachId = 0,
+                            CoachId = 1,
                             Country = "Italy",
                             CreatedBy = "Admin",
                             CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            LeagueId = 1,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "AC Milan"
                         },
                         new
                         {
                             Id = 2,
-                            CoachId = 0,
+                            CoachId = 2,
                             Country = "Italy",
                             CreatedBy = "Admin",
                             CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            LeagueId = 1,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Inter Milan"
                         },
@@ -207,51 +241,12 @@ namespace EntityFrameWorkCore.Data.Migrations
                         {
                             Id = 3,
                             CoachId = 0,
-                            Country = "Italy",
-                            CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Juventus"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CoachId = 0,
                             Country = "England",
                             CreatedBy = "Admin",
                             CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            LeagueId = 3,
                             ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Name = "Manchester United"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CoachId = 0,
-                            Country = "England",
-                            CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Manchester City"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CoachId = 0,
-                            Country = "England",
-                            CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Chelsea"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CoachId = 0,
-                            Country = "England",
-                            CreatedBy = "Admin",
-                            CreatedDate = new DateTime(2025, 10, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            ModifiedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Name = "Liverpool"
                         });
                 });
 
@@ -307,9 +302,17 @@ namespace EntityFrameWorkCore.Data.Migrations
 
             modelBuilder.Entity("EntityFrameWorkCore.Domain.Team", b =>
                 {
+                    b.HasOne("EntityFrameWorkCore.Domain.Coach", "Coach")
+                        .WithOne("Team")
+                        .HasForeignKey("EntityFrameWorkCore.Domain.Team", "CoachId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("EntityFrameWorkCore.Domain.League", "League")
                         .WithMany("Teams")
                         .HasForeignKey("LeagueId");
+
+                    b.Navigation("Coach");
 
                     b.Navigation("League");
                 });
@@ -331,6 +334,11 @@ namespace EntityFrameWorkCore.Data.Migrations
                     b.Navigation("AwayTeam");
 
                     b.Navigation("HomeTeam");
+                });
+
+            modelBuilder.Entity("EntityFrameWorkCore.Domain.Coach", b =>
+                {
+                    b.Navigation("Team");
                 });
 
             modelBuilder.Entity("EntityFrameWorkCore.Domain.League", b =>

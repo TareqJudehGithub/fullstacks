@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{060A718C-7D71-4988-9D3F-A09B4AFFA380}|EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj|solutionrelative:entityframeworkcore.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{060A718C-7D71-4988-9D3F-A09B4AFFA380}|EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.console\\entityframeworkcore.console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{060A718C-7D71-4988-9D3F-A09B4AFFA380}|EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj|solutionrelative:entityframeworkcore.console\\entityframeworkcore.console.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3F5C15FF-9D58-4914-9F9A-823EC1ECF25F}|EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.data\\footballleaguedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5C15FF-9D58-4914-9F9A-823EC1ECF25F}|EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj|solutionrelative:entityframeworkcore.data\\footballleaguedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5C15FF-9D58-4914-9F9A-823EC1ECF25F}|EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.data\\entityframeworkcore.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3F5C15FF-9D58-4914-9F9A-823EC1ECF25F}|EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj|solutionrelative:entityframeworkcore.data\\entityframeworkcore.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.domain\\entityframeworkcore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|solutionrelative:entityframeworkcore.domain\\entityframeworkcore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.domain\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|solutionrelative:entityframeworkcore.domain\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.domain\\basedomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|solutionrelative:entityframeworkcore.domain\\basedomainmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\efcore\\entityframeworkcore.domain\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{055F19AC-D217-485E-808A-A16346B0D562}|EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj|solutionrelative:entityframeworkcore.domain\\coach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,29 +58,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FootballLeagueDbContext.cs",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
-              "RelativeDocumentMoniker": "EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
-              "RelativeToolTip": "EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T16:25:17.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Console\\Program.cs",
               "RelativeDocumentMoniker": "EntityFrameworkCore.Console\\Program.cs",
               "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Console\\Program.cs",
               "RelativeToolTip": "EntityFrameworkCore.Console\\Program.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAwHIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAjwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T12:33:05.74Z",
+              "WhenOpened": "2025-10-21T20:29:53.549Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityFrameworkCore.Console",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj",
+              "RelativeToolTip": "EntityFrameworkCore.Console\\EntityFrameworkCore.Console.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T20:29:50.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EntityFrameworkCore.Domain.csproj",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj",
+              "RelativeToolTip": "EntityFrameworkCore.Domain\\EntityFrameworkCore.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T14:42:32.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FootballLeagueDbContext.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
+              "RelativeToolTip": "EntityFrameworkCore.Data\\FootballLeagueDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwCoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:28:19.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EntityFrameworkCore.Data.csproj",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+              "RelativeToolTip": "EntityFrameworkCore.Data\\EntityFrameworkCore.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T14:28:14.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseDomainModel.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\BaseDomainModel.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Domain\\BaseDomainModel.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\BaseDomainModel.cs",
+              "RelativeToolTip": "EntityFrameworkCore.Domain\\BaseDomainModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:25:28.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Team.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\Team.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Domain\\Team.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\Team.cs",
+              "RelativeToolTip": "EntityFrameworkCore.Domain\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:25:23.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Coach.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\Coach.cs",
+              "RelativeDocumentMoniker": "EntityFrameworkCore.Domain\\Coach.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EFCore\\EntityFrameworkCore.Domain\\Coach.cs",
+              "RelativeToolTip": "EntityFrameworkCore.Domain\\Coach.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T14:25:26.305Z"
             }
           ]
         }

@@ -77,3 +77,7 @@ SELECT *
 FROM Students
 GO
 
+UPDATE Students
+SET StudentId = 'PE736974'
+WHERE Id = 20
+GO

@@ -40,7 +40,10 @@ namespace EntityFrameWorkCore.Data.Configurations
                      Name = "AC Milan",
                      Country = "Italy",
                      CreatedDate = new DateTime(year: 2025, month: 10, day: 30),
-                     CreatedBy = "Admin"
+                     CreatedBy = "Admin",
+                     LeagueId = 1,
+                     CoachId = 1
+
                  },
                      new Team
                      {
@@ -48,48 +51,21 @@ namespace EntityFrameWorkCore.Data.Configurations
                          Name = "Inter Milan",
                          Country = "Italy",
                          CreatedDate = new DateTime(2025, 10, 30),
-                         CreatedBy = "Admin"
+                         CreatedBy = "Admin",
+                         LeagueId = 1,
+                         CoachId = 2
                      },
-                      new Team
-                      {
-                          Id = 3,
-                          Name = "Juventus",
-                          Country = "Italy",
-                          CreatedDate = new DateTime(2025, 10, 30),
-                          CreatedBy = "Admin"
-                      },
                        new Team
                        {
-                           Id = 4,
+                           Id = 3,
                            Name = "Manchester United",
                            Country = "England",
                            CreatedDate = new DateTime(2025, 10, 30),
-                           CreatedBy = "Admin"
-                       },
-                        new Team
-                        {
-                            Id = 5,
-                            Name = "Manchester City",
-                            Country = "England",
-                            CreatedDate = new DateTime(2025, 10, 30),
-                            CreatedBy = "Admin"
-                        },
-                         new Team
-                         {
-                             Id = 6,
-                             Name = "Chelsea",
-                             Country = "England",
-                             CreatedDate = new DateTime(2025, 10, 30),
-                             CreatedBy = "Admin"
-                         },
-                          new Team
-                          {
-                              Id = 7,
-                              Name = "Liverpool",
-                              Country = "England",
-                              CreatedDate = new DateTime(2025, 10, 30),
-                              CreatedBy = "Admin"
-                          }
+                           CreatedBy = "Admin",
+                           LeagueId = 3,
+                           CoachId = 3
+                       }
+
                 );
         }
 

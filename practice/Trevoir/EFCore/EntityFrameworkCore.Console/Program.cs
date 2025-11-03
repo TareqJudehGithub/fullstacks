@@ -1,4 +1,5 @@
 ﻿using EntityFrameworkCore.Data;
+using EntityFrameworkCore.Domain;
 using Microsoft.EntityFrameworkCore;
 
 // Create new instance of context - FootballLeagueDbContext
@@ -118,4 +119,233 @@ async Task GetAllTeamsAltSync()
 
 await GetAllTeamsAltSync();
 
+
+// Aggregate Methods
+Console.WriteLine("\nAggregate Functions");
+async Task AggregateMethods()
+{
+    // Count or CountAsync  - Counts total items inside a table object
+    var numberOfTeams = await context.Teams.CountAsync();
+    var numberOfTeamsFiltered = await context.Teams.CountAsync(q => q.Name.Contains("Man"));
+
+    // Max value
+    var maxTeamId = await context.Teams.MaxAsync(q => q.TeamId);
+    // Min  value
+    var minTeamId = await context.Teams.MinAsync(q => q.TeamId);
+
+    // Average
+    var avgTeamId = await context.Teams.AverageAsync(q => q.TeamId);
+
+    // Sum
+    var sumOfTeamId = await context.Teams.SumAsync(q => q.TeamId);
+
+
+    Console.WriteLine($"No. of teams: {numberOfTeams}");
+    Console.WriteLine($" Contains word 'Man': {numberOfTeamsFiltered}");
+    Console.WriteLine($"Max Id: {maxTeamId}");
+    Console.WriteLine($"Min Id: {minTeamId}");
+    Console.WriteLine($"Avg Team ID: {avgTeamId}");
+    Console.WriteLine($"Sum of IDs: {sumOfTeamId}");
+
+    // Grouping and Aggregating  - Group by a specific column
+    Console.WriteLine("\nGroup By");
+    var groupedTeams = context.Teams
+        .GroupBy(q => new { q.CreatedDate.Date });
+
+    foreach (var group in groupedTeams)
+    {
+        Console.WriteLine($"group.Key: {group.Key}");
+        Console.Write("Group by Sum: ");
+        Console.WriteLine(group.Sum(q => q.TeamId));
+        foreach (var team in group)
+        {
+            Console.WriteLine(team.Name);
+        }
+    }
+
+    // Order By - rearrange the order the table items would be presented
+    Console.WriteLine("\nOrder By");
+    var orderedTeams = await context.Teams
+        .OrderBy(q => q.Name)
+        .ToListAsync();
+
+    foreach (var team in orderedTeams)
+    {
+        Console.WriteLine(team.Name);
+    }
+
+    // Order by - Descending
+    Console.WriteLine("\nOrder By - Descending");
+    var orderedTeamsDesc = await context.Teams
+        .OrderByDescending(q => q.Name)
+        .ToListAsync();
+
+    foreach (var team in orderedTeamsDesc)
+    {
+        Console.WriteLine(team.Name);
+    }
+
+    // Skip and Take  - skip x numbers of records, and take x numbers of records
+    // Displays certain amount of data based on the Skip() and the Take() methods.
+    async Task SkipAndTake()
+    {
+        Console.WriteLine("\nSkip and Take");
+        var recordCount = 3;
+        var page = 0;
+        var next = true;
+
+        while (next)
+        {
+            var teams = await context.Teams
+                    .Skip(page * recordCount)
+                    .Take(recordCount)
+                    .ToListAsync();
+
+            foreach (var team in teams)
+            {
+                Console.WriteLine(team.Name);
+            }
+            Console.Write("Continue? (true/false): ");
+            next = Convert.ToBoolean(Console.ReadLine());
+
+            // Break the loop
+            if (!next) { break; }
+
+            // Or, increment by 1
+            page += 1;
+
+        }
+
+
+    }
+    //    await SkipAndTake();
+
+
+    // Select
+    Console.WriteLine("Press any key to continue");
+
+    Console.Clear();
+
+    async Task Select()
+    {
+
+        Console.WriteLine("Select() - Press any key to continue");
+        var teamNames = await context.Teams
+            .OrderBy(q => q.Name)
+            .Select(q => q.Name)
+            .ToListAsync();
+
+        foreach (var team in teamNames)
+        {
+            Console.WriteLine(team);
+        }
+
+        // Return more than one column using Select()
+        var teamsIdAndName = await context.Teams
+            .OrderBy(q => q.TeamId)
+            .Select(q => new { q.TeamId, q.Name })
+            .ToListAsync();
+
+        foreach (var team in teamsIdAndName)
+        {
+            Console.WriteLine($"ID: {team.TeamId} Name: {team.Name}");
+        }
+        Console.WriteLine("\nProjections:");
+        // Create a list of TeamInfo objects 
+        var teamsInfo = await context.Teams
+            .OrderBy(q => q.TeamId)
+            .Select(q => new TeamInfo
+            {
+                TeamInfoID = q.TeamId,
+                TeamInfoName = q.Name
+            })
+            .ToListAsync();
+
+        foreach (var team in teamsInfo)
+        {
+            Console.WriteLine($"ID: {team.TeamInfoID} Name: {team.TeamInfoName}");
+        }
+    }
+    await Select();
+
+}
+await AggregateMethods();
+Console.Clear();
+async Task IQueryAbleTypes()
+{
+    // Console.WriteLine("IQueryable types");
+
+    Console.Write("(1). Team with Id 1.  (2) for teams that contain AC: ");
+
+    int userChoice = Convert.ToInt32(Console.ReadLine());
+
+    //var userChoice = 2;
+    // Creating a new list of Teams generic type
+    List<Team> teamsAsList = new List<Team>();
+
+    // Fill the teamsAsList with items from Teams view model
+    teamsAsList = await context.Teams.ToListAsync();
+
+    // Replace data in teamsAsList according to the userChoice:
+    if (userChoice == 1)
+    {
+        teamsAsList = teamsAsList
+            .Where(q => q.TeamId == 1)
+            .ToList();
+    }
+    else if (userChoice == 2)
+    {
+        teamsAsList = teamsAsList
+            .Where(q => q.Name.Contains("AC"))
+            .ToList();
+    }
+    foreach (var team in teamsAsList)
+    {
+        Console.WriteLine(team.Name);
+    }
+
+
+
+    Console.Write("(1).  (2) for teams AC: IQueryable: ");
+
+    userChoice = Convert.ToInt32(Console.ReadLine());
+    // IQueryable
+    var teamsAsQueryable = context.Teams.AsQueryable();
+    if (userChoice == 1)
+    {
+        teamsAsQueryable = teamsAsQueryable
+            .Where(q => q.TeamId == 1);
+    }
+    else if (userChoice == 2)
+    {
+        teamsAsQueryable = teamsAsQueryable
+            .Where(q => q.Name.Contains("AC"));
+    }
+
+    // Convert from IQueryable to a List
+
+    List<Team> teamsAsListV2 = new List<Team>();
+    teamsAsListV2 = await teamsAsQueryable.ToListAsync();
+
+    foreach (var team in teamsAsListV2)
+    {
+        Console.WriteLine(team.Name);
+    }
+
+
+
+
+
+
+}
+await IQueryAbleTypes();
+
+
+class TeamInfo
+{
+    #region Properties
+    public int TeamInfoID { get; set; }
+    public string TeamInfoName { get; set; }
+    #endregion
+}
 

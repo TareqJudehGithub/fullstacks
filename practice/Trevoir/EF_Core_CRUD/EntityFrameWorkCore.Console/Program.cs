@@ -36,7 +36,61 @@ async Task SimpleInsert()
     }
 }
 // await SimpleInsert();
+async Task AddTeams()
+{
+    var acMilan = new Team
+    {
+        Id = 1,
+        Name = "AC Milan",
+        Country = "Italy",
+        CreatedDate = new DateTime(year: 2025, month: 10, day: 30),
+        CreatedBy = "Admin",
+        LeagueId = 1,
+        CoachId = 1
+    };
+    await context.Teams.AddAsync(acMilan);
+    //  await context.SaveChangesAsync();
 
+    var interMilan = new Team
+    {
+        Id = 2,
+        Name = "Inter Milan",
+        Country = "Italy",
+        CreatedDate = new DateTime(year: 2025, month: 9, day: 15),
+        CreatedBy = "Admin",
+        LeagueId = 1,
+        CoachId = 2
+    };
+    await context.Teams.AddAsync(interMilan);
+    // await context.SaveChangesAsync();
+
+    var manUinted = new Team
+    {
+        Id = 3,
+        Name = "Man United",
+        Country = "England",
+        CreatedDate = new DateTime(year: 2025, month: 11, day: 1),
+        CreatedBy = "Admin",
+        LeagueId = 2,
+        CoachId = 3
+    };
+
+    await context.Teams.AddAsync(manUinted);
+
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+    // await context.SaveChangesAsync();
+
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+
+    var teams = await context.Teams
+        .Select(q => q.Name)
+        .ToListAsync();
+    foreach (var team in teams)
+    {
+        Console.WriteLine(team);
+    }
+}
+//await AddTeams();
 
 // Loop Insert
 async Task LoopInsert()
@@ -168,7 +222,7 @@ async Task DeleteItems()
 // await DeleteItems();
 
 
-// Execute delete  - one line, no context.SaveChangesAsync();  so be careful.
+//  Another way to del: Execute delete  - one line, no context.SaveChangesAsync();  so be careful.
 async Task ExecuteDelete()
 {
     var coach = await context.Coaches
@@ -178,7 +232,7 @@ async Task ExecuteDelete()
 }
 // await ExecuteDelete();
 
-// Execute Update
+// Execute Update - updating rec alt
 
 async Task ExecuteUpdate()
 {
@@ -191,8 +245,6 @@ async Task ExecuteUpdate()
     Console.WriteLine(context.ChangeTracker.DebugView.LongView);
 }
 // await ExecuteUpdate();
-
-
 
 async Task InsertNewTeam()
 {
@@ -209,4 +261,121 @@ async Task InsertNewTeam()
     await context.SaveChangesAsync();
 
 }
-await InsertNewTeam();
+//await InsertNewTeam();
+
+
+
+// Sec7: Lecture 77 - Insert Related Data
+
+// Insert record with FK
+
+// Insert match
+async Task InsertNewMatch()
+{
+    var match1 = new Match
+    {
+        HomeTeamId = 11,
+        AwayTeamId = 12,
+        HomeTeamScore = 2,
+        AwayTeamScore = 0,
+        Country = "Italy",
+        Date = new DateTime(2025, 11, 14),
+        CreatedDate = DateTime.Today,
+        CreatedBy = "Admin",
+        TicketPrice = 20,
+    };
+
+    await context.AddAsync(match1);
+    await context.SaveChangesAsync();
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+}
+// await InsertNewMatch();
+
+// Insert Parent/Child
+async Task AddingParentAndChild()
+{
+    // First, we create a new coach obj, and add it into Context.
+    var pepGuardiola = new Coach
+    {
+        Name = "Pep Guardiola",
+        Country = "Spain",
+        CreatedDate = DateTime.Today,
+        CreatedBy = "Admin"
+    };
+    await context.Coaches.AddAsync(pepGuardiola);
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+
+    // Then, we create a new team, and add the newly created coach obj into it.
+    Console.WriteLine("Press any key to continue");
+    Console.Read();
+    var barcelona = new Team
+    {
+        Name = "Barcelona",
+        CoachId = 16,
+        CreatedDate = DateTime.Today,
+        CreatedBy = "Admin",
+        LeagueId = 3,
+    };
+    await context.AddAsync(barcelona);
+
+    await context.SaveChangesAsync();
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+}
+//await AddingParentAndChild();
+
+// Updating missing properties
+async Task UpdateTeam()
+{
+    var barcelona = await context.Teams.FindAsync(17);
+    barcelona.Country = "Spain";
+
+
+    await context.SaveChangesAsync();
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+}
+// await UpdateTeam();
+
+
+// Insert Parent with Children
+// Adding a new league and new teams same time..
+
+async Task AddLeagueAndTeam()
+{
+
+    var primeiraLiga = new League
+    {
+        Name = "Primeira Liga",
+        Country = "Portugal",
+        Teams = new List<Team>
+            {
+                new Team
+                {
+                    Name = "Benfica",
+                    Country = "Portugal",
+                    CreatedDate = DateTime.Today,
+                    CreatedBy = "Admin",
+                    CoachId = 17
+                },
+                 new Team
+                {
+                    Name = "Porto",
+                    Country = "Portugal",
+                    CreatedDate = DateTime.Today,
+                    CreatedBy = "Admin",
+                    CoachId = 18
+                },
+                  new Team
+                {
+                    Name = "Sporting",
+                    Country = "Portugal",
+                    CreatedDate = DateTime.Today,
+                    CreatedBy = "Admin",
+                    CoachId = 19
+                }
+            },
+    };
+    await context.Leagues.AddAsync(primeiraLiga);
+    await context.SaveChangesAsync();
+    Console.WriteLine(context.ChangeTracker.DebugView.LongView);
+}
+await AddLeagueAndTeam();
