@@ -378,4 +378,87 @@ async Task AddLeagueAndTeam()
     await context.SaveChangesAsync();
     Console.WriteLine(context.ChangeTracker.DebugView.LongView);
 }
-await AddLeagueAndTeam();
+//await AddLeagueAndTeam();
+
+
+// Loading data
+
+// Eager Loading
+async Task EagerLoading()
+{
+    var leagues = await context.Leagues
+        .Include(q => q.Teams)
+        .ToListAsync();
+
+    // League name
+    foreach (var league in leagues)
+    {
+        Console.WriteLine(league.Name);
+        // League Team
+        foreach (var team in league.Teams)
+        {
+            Console.WriteLine(team.Name);
+        }
+    }
+    Console.WriteLine("Press a key to continue");
+    Console.Read();
+
+
+    Console.WriteLine("Press a key to continue");
+    Console.Read();
+}
+// await EagerLoading();
+
+// Explicit Loading
+async Task ExplicitLoading()
+{
+    var league = await context.Leagues.FindAsync(1);
+
+    // We can also write it like this:
+    var leagueOpt2 = await context.FindAsync<League>(1);
+
+    // If the league has no team
+    if (!league.Teams.Any())
+    {
+        Console.WriteLine("No teams loaded!");
+    }
+    await context.Entry(league) // or leagueOpt2 as a param
+       .Collection(q => q.Teams)  // Load collection of Teams 
+       .LoadAsync();
+
+    // Leads teams if found
+    if (league.Teams.Any())
+    {
+        foreach (var team in league.Teams)
+        {
+            Console.WriteLine($"Team: {team.Name}");
+        }
+    }
+}
+
+// await ExplicitLoading();+
+
+
+
+// Filtering
+
+// Get only home matches where they have scored (HomeTeamScore > 0)
+async Task FilterRelatedRec()
+{
+    var teams = await context.Teams
+
+        .Include("Coach")
+        .Include(q => q.HomeMatches.Where(q => q.HomeTeamScore > 0))
+        .ToListAsync();
+
+    // Print out the result to the console
+    foreach (var team in teams)
+    {
+        Console.WriteLine(team.Name);
+        foreach (var match in team.HomeMatches)
+        {
+            Console.WriteLine(match.HomeTeamScore);
+        }
+    }
+}
+await FilterRelatedRec();
