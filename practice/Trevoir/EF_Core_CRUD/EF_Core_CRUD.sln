@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36603.0 d17.14
+VisualStudioVersion = 17.14.36603.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkCore.Data", "EntityFrameWorkCore.Data\EntityFrameWorkCore.Data.csproj", "{99029476-A1C0-44D8-90DF-ED6DDCEBF2FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkCore.Domain", "EntityFrameWorkCore.Domain\EntityFrameWorkCore.Domain.csproj", "{783FFDC3-735B-40D6-B6F7-9B2418C83530}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameWorkCore.Console", "EntityFrameWorkCore.Console\EntityFrameWorkCore.Console.csproj", "{5F06636C-5671-4ADA-A106-826036A5C8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFWebAPI", "EFWebAPI\EFWebAPI.csproj", "{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{5F06636C-5671-4ADA-A106-826036A5C8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F06636C-5671-4ADA-A106-826036A5C8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F06636C-5671-4ADA-A106-826036A5C8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

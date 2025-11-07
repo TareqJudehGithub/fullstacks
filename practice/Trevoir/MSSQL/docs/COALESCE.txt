@@ -1,0 +1,8 @@
+COALESCE
+  Handling NULL values: COALESCE is commonly used to provide a default or fallback 
+  value when a column or expression might contain NULL values. For example, if 
+  a DepartmentName column can be NULL, you can use COALESCE(DepartmentName, 'Unknown') 
+  to display 'Unknown' instead of NULL.
+
+  The COALESCE function iterates through the provided expressions from left to right.
+  
