@@ -1,0 +1,23 @@
+﻿@model TestViewModel
+
+@{ 
+ViewData["Title"] = "Test View";
+}
+
+
+<h1>Test View!</h1>
+<h4>Name: @Model.Name</h4>
+<p>Age: @Model.Age</p>
+
+
+@{
+if (Model.Birthday.HasValue)
+            {
+<h4>Birthday: @Model.Birthday</h4>
+            }
+  else {
+        <h4>Birthday: N/A</h4>
+}
+}
+
+

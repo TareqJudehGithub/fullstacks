@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeaveMngSys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfad9d0a0c78965e7452e408026f9f0e81ff2524")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+633b8248b6b1d3e0e9ec9d2f104733e02f6e36e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeaveMngSys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeaveMngSys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
