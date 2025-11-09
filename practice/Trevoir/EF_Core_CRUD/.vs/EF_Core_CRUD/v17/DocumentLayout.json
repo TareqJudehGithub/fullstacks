@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{99029476-A1C0-44D8-90DF-ED6DDCEBF2FF}|EntityFrameWorkCore.Data\\EntityFrameWorkCore.Data.csproj|solutionrelative:entityframeworkcore.data\\footballleaguedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F06636C-5671-4ADA-A106-826036A5C8D9}|EntityFrameWorkCore.Console\\EntityFrameWorkCore.Console.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\ef_core_crud\\entityframeworkcore.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F06636C-5671-4ADA-A106-826036A5C8D9}|EntityFrameWorkCore.Console\\EntityFrameWorkCore.Console.csproj|solutionrelative:entityframeworkcore.console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}|EFWebAPI\\EFWebAPI.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\ef_core_crud\\efwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F585E41A-FBDB-4F9B-88F4-3E2E5F2895F6}|EFWebAPI\\EFWebAPI.csproj|solutionrelative:efwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +26,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EF_Core_CRUD\\EntityFrameWorkCore.Console\\Program.cs",
+              "RelativeDocumentMoniker": "EntityFrameWorkCore.Console\\Program.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EF_Core_CRUD\\EntityFrameWorkCore.Console\\Program.cs",
+              "RelativeToolTip": "EntityFrameWorkCore.Console\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T11:31:55.615Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,14 +57,14 @@
               "RelativeDocumentMoniker": "EntityFrameWorkCore.Data\\FootballLeagueDbContext.cs",
               "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EF_Core_CRUD\\EntityFrameWorkCore.Data\\FootballLeagueDbContext.cs",
               "RelativeToolTip": "EntityFrameWorkCore.Data\\FootballLeagueDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T18:01:50.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EF_Core_CRUD\\EFWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "EFWebAPI\\appsettings.json",
@@ -47,12 +72,11 @@
               "RelativeToolTip": "EFWebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T17:54:04.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T17:54:04.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\EF_Core_CRUD\\EFWebAPI\\Program.cs",
               "RelativeDocumentMoniker": "EFWebAPI\\Program.cs",
@@ -60,16 +84,7 @@
               "RelativeToolTip": "EFWebAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T17:50:34.852Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "WhenOpened": "2025-11-05T17:50:34.852Z"
             }
           ]
         }

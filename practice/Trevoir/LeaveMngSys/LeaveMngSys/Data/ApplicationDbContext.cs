@@ -8,6 +8,9 @@ namespace LeaveMngSys.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
+        // Entities/Tables
+        public DbSet<LeaveType> LeaveTypes { get; set; }
     }
 }

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\data\\migrations\\20251109145848_addingleaveupdatedtypestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\data\\migrations\\20251109145848_addingleaveupdatedtypestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\data\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\data\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-08T16:44:34.294Z",
+              "Title": "LeaveTypesController.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "RelativeToolTip": "LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T15:48:44.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20251109145848_AddingLeaveUpdatedTypesTable.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251109145848_AddingLeaveUpdatedTypesTable.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\Migrations\\20251109145848_AddingLeaveUpdatedTypesTable.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251109145848_AddingLeaveUpdatedTypesTable.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\Migrations\\20251109145848_AddingLeaveUpdatedTypesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:58:49.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:45:13.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaveType.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\LeaveType.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\LeaveType.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\LeaveType.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\LeaveType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:41:22.731Z",
               "EditorCaption": ""
             }
           ]
