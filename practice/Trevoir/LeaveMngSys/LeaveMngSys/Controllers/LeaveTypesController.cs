@@ -61,6 +61,7 @@ namespace LeaveMngSys.Controllers
         }
 
         // GET: LeaveTypes/Edit/5
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -144,6 +145,7 @@ namespace LeaveMngSys.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        // Confirms if any record exists - used for Edit 
         private bool LeaveTypeExists(int id)
         {
             return _context.LeaveTypes.Any(e => e.Id == id);

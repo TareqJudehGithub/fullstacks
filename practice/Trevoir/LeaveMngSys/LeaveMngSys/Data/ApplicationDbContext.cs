@@ -10,7 +10,6 @@ namespace LeaveMngSys.Data
         {
 
         }
-        // Entities/Tables
-        public DbSet<LeaveType> LeaveTypes { get; set; }
+
     }
 }

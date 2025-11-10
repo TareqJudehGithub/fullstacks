@@ -1,7 +1,60 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110195530_UpdateIdPropertyName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveMngSys\\Data\\Migrations\\20251110195530_UpdateIdPropertyName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110173237_UpdatedIdPropertyNameAnnotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveMngSys\\Data\\Migrations\\20251110173237_UpdatedIdPropertyNameAnnotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LeaveMngSys\\Data\\Migrations\\20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\views\\leavetypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\views\\leavetypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\views\\leavetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\views\\leavetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngsys\\leavemngsys\\views\\leavetypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88419119-F313-4B43-80F7-87C505F2A745}|LeaveMngSys\\LeaveMngSys.csproj|solutionrelative:leavemngsys\\views\\leavetypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +62,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:59:20.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeaveTypesController.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "RelativeToolTip": "LeaveMngSys\\Controllers\\LeaveTypesController.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAmwJoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T14:01:54.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:01:49.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\appsettings.json",
+              "RelativeDocumentMoniker": "LeaveMngSys\\appsettings.json",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\appsettings.json",
+              "RelativeToolTip": "LeaveMngSys\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T16:05:19.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Program.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Program.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Program.cs",
+              "RelativeToolTip": "LeaveMngSys\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:06:49.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20251110195530_UpdateIdPropertyName.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110195530_UpdateIdPropertyName.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\Migrations\\20251110195530_UpdateIdPropertyName.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110195530_UpdateIdPropertyName.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\Migrations\\20251110195530_UpdateIdPropertyName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:55:30.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20251110173237_UpdatedIdPropertyNameAnnotation.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110173237_UpdatedIdPropertyNameAnnotation.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\Migrations\\20251110173237_UpdatedIdPropertyNameAnnotation.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110173237_UpdatedIdPropertyNameAnnotation.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\Migrations\\20251110173237_UpdatedIdPropertyNameAnnotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:32:37.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Data\\Migrations\\20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Data\\Migrations\\20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs",
+              "RelativeToolTip": "LeaveMngSys\\Data\\Migrations\\20251110173031_UpdatedNumberOfDaysPropertiesAnnotation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T17:30:32.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LeaveMngSys\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T17:25:30.888Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -18,6 +188,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LeaveMngSys\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:01:40.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\LeaveTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Views\\LeaveTypes\\Delete.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\LeaveTypes\\Delete.cshtml",
+              "RelativeToolTip": "LeaveMngSys\\Views\\LeaveTypes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T15:26:33.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\LeaveTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Views\\LeaveTypes\\Index.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\LeaveTypes\\Index.cshtml",
+              "RelativeToolTip": "LeaveMngSys\\Views\\LeaveTypes\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T15:27:16.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\LeaveTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LeaveMngSys\\Views\\LeaveTypes\\Edit.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngSys\\LeaveMngSys\\Views\\LeaveTypes\\Edit.cshtml",
+              "RelativeToolTip": "LeaveMngSys\\Views\\LeaveTypes\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-10T15:15:41.889Z",
+              "EditorCaption": ""
             }
           ]
         }

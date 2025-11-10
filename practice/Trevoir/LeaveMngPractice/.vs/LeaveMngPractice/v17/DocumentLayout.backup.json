@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D97FF6-0E77-4E07-B1BE-3582129B6832}|LeaveMngPractice\\LeaveMngPractice.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngpractice\\leavemngpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C2D97FF6-0E77-4E07-B1BE-3582129B6832}|LeaveMngPractice\\LeaveMngPractice.csproj|solutionrelative:leavemngpractice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D97FF6-0E77-4E07-B1BE-3582129B6832}|LeaveMngPractice\\LeaveMngPractice.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngpractice\\leavemngpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D97FF6-0E77-4E07-B1BE-3582129B6832}|LeaveMngPractice\\LeaveMngPractice.csproj|solutionrelative:leavemngpractice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2D97FF6-0E77-4E07-B1BE-3582129B6832}|LeaveMngPractice\\LeaveMngPractice.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemngpractice\\leavemngpractice\\data\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2D97FF6-0E77-4E07-B1BE-3582129B6832}|LeaveMngPractice\\LeaveMngPractice.csproj|solutionrelative:leavemngpractice\\data\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\LeaveMngPractice\\appsettings.json",
+              "RelativeDocumentMoniker": "LeaveMngPractice\\appsettings.json",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\LeaveMngPractice\\appsettings.json",
+              "RelativeToolTip": "LeaveMngPractice\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-10T16:05:11.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaveType.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\LeaveMngPractice\\Data\\LeaveType.cs",
+              "RelativeDocumentMoniker": "LeaveMngPractice\\Data\\LeaveType.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\LeaveMngPractice\\Data\\LeaveType.cs",
+              "RelativeToolTip": "LeaveMngPractice\\Data\\LeaveType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:02:36.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\LeaveMngPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LeaveMngPractice\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveMngPractice\\LeaveMngPractice\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LeaveMngPractice\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T16:01:18.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

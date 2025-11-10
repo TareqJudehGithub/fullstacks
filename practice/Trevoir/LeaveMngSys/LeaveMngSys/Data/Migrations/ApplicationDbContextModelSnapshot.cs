@@ -33,15 +33,18 @@ namespace LeaveMngSys.Data.Migrations
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("NVARCHAR(150)")
-                        .HasColumnName("Name");
+                        .HasColumnName("Id");
 
                     b.Property<int>("NumberOfDays")
-                        .HasColumnType("int")
-                        .HasColumnName("No. of Days");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("LeaveTypes");
+                    b.ToTable("LeaveTypes", t =>
+                        {
+                            t.Property("Id")
+                                .HasColumnName("Id1");
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
