@@ -6,22 +6,43 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LeaveManagementSystem.Data;
+using LeaveManagementSystem.Models.LeaveTypes;
+
+using AutoMapper;
 
 namespace LeaveManagementSystem.Controllers
 {
     public class LeaveTypesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IMapper _mapper;
 
-        public LeaveTypesController(ApplicationDbContext context)
+        public LeaveTypesController(ApplicationDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         // GET: LeaveTypes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.LeaveTypes.ToListAsync());
+            var data = await _context.LeaveTypes.ToListAsync();
+            // Convert data model to View Model (VM) by creating a new  VM object from it's VM class.
+
+            // Option 1. Manual mapping/conversion
+            var manualViewData = data.Select(q => new LeaveTypeReadOnlyVM
+            {
+                Id = q.Id,
+                Name = q.Name,
+                NumberOfDays = q.NumberOfDays
+            });
+
+            // Option 2. using AutoMapper 
+            // Here we are mapping from a collection (data variable)
+            var viewData = _mapper.Map<List<LeaveTypeReadOnlyVM>>(data);
+
+            // return the View Model to the View
+            return View(viewData);
         }
 
         // GET: LeaveTypes/Details/5
@@ -39,7 +60,20 @@ namespace LeaveManagementSystem.Controllers
                 return NotFound();
             }
 
-            return View(leaveType);
+            // Manual mapping
+            var manualViewData = new LeaveTypeReadOnlyVM
+            {
+                Id = leaveType.Id,
+                Name = leaveType.Name,
+                NumberOfDays = leaveType.NumberOfDays
+            };
+
+            // We r mapping from an obj (not a collection)
+            var viewData = _mapper.Map<LeaveTypeReadOnlyVM>(leaveType);
+
+
+
+            return View(viewData);
         }
 
         // GET: LeaveTypes/Create
