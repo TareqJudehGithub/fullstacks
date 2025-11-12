@@ -270,3 +270,4 @@ E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSyste
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\obj\Debug\net8.0\swae.build.ex.cache
