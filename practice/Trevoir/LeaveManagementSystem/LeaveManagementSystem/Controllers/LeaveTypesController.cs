@@ -106,9 +106,25 @@ namespace LeaveManagementSystem.Controllers
             //        );
             //}
 
+            // Check if leave type exists
+            if (await CheckIfLeaveTypesExists(model.Name))
+            {
+                ModelState.AddModelError(
+                    key: nameof(model.Name),
+                    errorMessage: $"{model.Name} already exists in the database."
+                    );
+            }
+
+
             if (ModelState.IsValid)
             {
-
+                var leaveTypes = await _context.LeaveTypes
+                    .Select(q => q.Name)
+                    .ToListAsync();
+                foreach (var item in leaveTypes)
+                {
+                    Console.WriteLine(leaveTypes);
+                }
 
                 // Convert data from LeaveTypeCreateVM to LeaveType using AutoMapper
                 var leaveType = _mapper.Map<LeaveType>(model);
@@ -165,7 +181,14 @@ namespace LeaveManagementSystem.Controllers
             {
                 return NotFound();
             }
-
+            // Check if the Leave Type name entered is already in the database
+            if (await CheckIfLeaveTypeExistsOnEdit(leaveTypeEdit))
+            {
+                ModelState.AddModelError(
+                    key: nameof(leaveTypeEdit.Name),
+                    errorMessage: $"{leaveTypeEdit.Name} already exists in the database."
+                    );
+            }
             if (ModelState.IsValid)
             {
                 try
@@ -204,8 +227,8 @@ namespace LeaveManagementSystem.Controllers
             {
                 return NotFound();
             }
-
-            return View(leaveType);
+            var viewData = _mapper.Map<LeaveTypeReadOnlyVM>(leaveType);
+            return View(viewData);
         }
 
         // POST: LeaveTypes/Delete/5
@@ -226,6 +249,24 @@ namespace LeaveManagementSystem.Controllers
         private bool LeaveTypeExists(int id)
         {
             return _context.LeaveTypes.Any(e => e.Id == id);
+        }
+
+        // Check if Leave Type exists in the database before adding a new one
+        private async Task<bool> CheckIfLeaveTypesExists(string leaveType)
+
+        {
+            var leaveTypeToLower = leaveType.ToLower();
+
+            return await _context.LeaveTypes
+                .AnyAsync(q => q.Name.Equals(leaveTypeToLower));
+        }
+        private async Task<bool> CheckIfLeaveTypeExistsOnEdit(LeaveTypeEditVM leaveType)
+        {
+            var leaveTypeToLower = leaveType.Name.ToLower();
+
+            return await _context.LeaveTypes
+                .AnyAsync(q => q.Name.ToLower().Equals(leaveTypeToLower) &&
+                q.Id != leaveType.Id);
         }
     }
 }

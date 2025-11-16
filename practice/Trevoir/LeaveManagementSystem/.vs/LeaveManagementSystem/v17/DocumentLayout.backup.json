@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\models\\leavetypes\\leavetypecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\models\\leavetypes\\leavetypecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\data\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\data\\leavetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\models\\leavetypes\\leavetypeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\models\\leavetypes\\leavetypeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\models\\leavetypes\\leavetypereadonlyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\models\\leavetypes\\leavetypereadonlyvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\controllers\\leavetypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\mappingprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\mappingprofiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\models\\leavetypes\\leavetypeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\models\\leavetypes\\leavetypeeditvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\models\\leavetypes\\baseleavetypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\models\\leavetypes\\baseleavetypevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\models\\leavetypes\\leavetypecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\models\\leavetypes\\leavetypecreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|e:\\webdev\\fullstacks\\practice\\trevoir\\leavemanagementsystem\\leavemanagementsystem\\views\\leavetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B9D1C9B-5C0C-4080-AC14-8D8C2F5F3FA1}|LeaveManagementSystem\\LeaveManagementSystem.csproj|solutionrelative:leavemanagementsystem\\views\\leavetypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,112 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
-              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T15:11:28.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LeaveType.cs",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Data\\LeaveType.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Data\\LeaveType.cs",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Data\\LeaveType.cs",
-              "RelativeToolTip": "LeaveManagementSystem\\Data\\LeaveType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T15:04:51.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
-              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T14:40:41.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
-              "RelativeToolTip": "LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T11:59:06.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LeaveTypeEditVM.cs",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
-              "RelativeToolTip": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBMAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T11:53:14.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LeaveTypesController.cs",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
-              "RelativeToolTip": "LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAswJwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T11:22:55.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LeaveTypeReadOnlyVM.cs",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
-              "RelativeToolTip": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T11:22:51.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Edit.cshtml",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Edit.cshtml",
-              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T09:11:40.762Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -166,28 +62,132 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeaveTypesController.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
+              "RelativeToolTip": "LeaveManagementSystem\\Controllers\\LeaveTypesController.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAAQwAABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:15:04.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
-              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
-              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
-              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
+              "RelativeToolTip": "LeaveManagementSystem\\MappingProfiles\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:14:46.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
+              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-16T08:57:46.707Z",
+              "WhenOpened": "2025-11-16T16:12:10.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Delete.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Delete.cshtml",
+              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:12:02.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaveTypeReadOnlyVM.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
+              "RelativeToolTip": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeReadOnlyVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:04:01.972Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
+              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:01:17.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
+              "RelativeToolTip": "LeaveManagementSystem\\Views\\LeaveTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-16T16:00:37.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseLeaveTypeVM.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\BaseLeaveTypeVM.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Models\\LeaveTypes\\BaseLeaveTypeVM.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\BaseLeaveTypeVM.cs",
+              "RelativeToolTip": "LeaveManagementSystem\\Models\\LeaveTypes\\BaseLeaveTypeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T15:57:34.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LeaveTypeEditVM.cs",
+              "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
+              "RelativeDocumentMoniker": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
+              "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
+              "RelativeToolTip": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeEditVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T15:59:04.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "LeaveTypeCreateVM.cs",
               "DocumentMoniker": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeCreateVM.cs",
               "RelativeDocumentMoniker": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeCreateVM.cs",
               "ToolTip": "E:\\WebDev\\fullstacks\\practice\\Trevoir\\LeaveManagementSystem\\LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeCreateVM.cs",
               "RelativeToolTip": "LeaveManagementSystem\\Models\\LeaveTypes\\LeaveTypeCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-16T08:56:30.375Z",
+              "WhenOpened": "2025-11-16T15:58:42.523Z",
               "EditorCaption": ""
             }
           ]

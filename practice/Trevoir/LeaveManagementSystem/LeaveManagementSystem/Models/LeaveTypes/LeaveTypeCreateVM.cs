@@ -1,13 +1,12 @@
-﻿using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LeaveManagementSystem.Models.LeaveTypes
 {
-    public class LeaveTypeCreateVM
+    public class LeaveTypeCreateVM : BaseLeaveTypeVM
     {
         #region Properties        
-        [DisplayName("Leave Type")]
+        [Display(Name = "Leave Type")]
         [Column(TypeName = "NVARCHAR(150)")]
         [Required]
         [Length(4, 30, ErrorMessage = "Leave Type must between {1} and {2} characters long.")]
@@ -15,7 +14,7 @@ namespace LeaveManagementSystem.Models.LeaveTypes
 
         [Required(ErrorMessage = "{0} is required!")]
         [Range(1, 21, ErrorMessage = "{0} should be between {1} and {2}!")]
-        [DisplayName("No. of Days")]
+        [Display(Name = "No. of Days")]
         public int NumberOfDays { get; set; }
         #endregion
     }
