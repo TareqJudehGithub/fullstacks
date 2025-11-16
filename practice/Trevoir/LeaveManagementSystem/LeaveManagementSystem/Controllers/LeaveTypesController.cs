@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
 using LeaveManagementSystem.Data;
 using LeaveManagementSystem.Models.LeaveTypes;
-
-using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LeaveManagementSystem.Controllers
 {
@@ -103,9 +97,19 @@ namespace LeaveManagementSystem.Controllers
 
         public async Task<IActionResult> Create(LeaveTypeCreateVM model)
         {
+            // Reference: Adding custom validation and model state error
+            //if (model.Name.Contains("vacation"))
+            //{
+            //    ModelState.AddModelError(
+            //        nameof(model.Name),
+            //        errorMessage: "Leave Type should not contain word 'vacation'"
+            //        );
+            //}
 
             if (ModelState.IsValid)
             {
+
+
                 // Convert data from LeaveTypeCreateVM to LeaveType using AutoMapper
                 var leaveType = _mapper.Map<LeaveType>(model);
                 _context.Add(leaveType);
@@ -130,7 +134,19 @@ namespace LeaveManagementSystem.Controllers
             {
                 return NotFound();
             }
-            return View(leaveType);
+
+            // Manual mapping
+            //var viewData = new LeaveTypeEditVM
+            //{
+            //    Id = leaveType.Id,
+            //    Name = leaveType.Name,
+            //    NumberOfDays = leaveType.NumberOfDays
+            //};
+
+            // using AutoMapper
+            var viewData = _mapper.Map<LeaveTypeEditVM>(leaveType);
+
+            return View(viewData);
         }
 
         // POST: LeaveTypes/Edit/5
@@ -138,9 +154,14 @@ namespace LeaveManagementSystem.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,NumberOfDays")] LeaveType leaveType)
+
+        // Edit post method using Bind()
+        //public async Task<IActionResult> Edit(int id, [Bind("Id,Name,NumberOfDays")] LeaveType leaveType)
+
+        // Edit post method using DTO (Data Transfer Object (overposting))
+        public async Task<IActionResult> Edit(int id, LeaveTypeEditVM leaveTypeEdit)
         {
-            if (id != leaveType.Id)
+            if (id != leaveTypeEdit.Id)
             {
                 return NotFound();
             }
@@ -149,12 +170,13 @@ namespace LeaveManagementSystem.Controllers
             {
                 try
                 {
-                    _context.Update(leaveType);
+                    var viewData = _mapper.Map<LeaveType>(leaveTypeEdit);
+                    _context.Update(viewData);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!LeaveTypeExists(leaveType.Id))
+                    if (!LeaveTypeExists(leaveTypeEdit.Id))
                     {
                         return NotFound();
                     }
@@ -165,7 +187,7 @@ namespace LeaveManagementSystem.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(leaveType);
+            return View(leaveTypeEdit);
         }
 
         // GET: LeaveTypes/Delete/5

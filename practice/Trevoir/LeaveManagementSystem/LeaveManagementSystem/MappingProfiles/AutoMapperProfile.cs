@@ -1,6 +1,6 @@
-﻿using LeaveManagementSystem.Data;
+﻿using AutoMapper;
+using LeaveManagementSystem.Data;
 using LeaveManagementSystem.Models.LeaveTypes;
-using AutoMapper;
 
 namespace LeaveManagementSystem.MappingProfiles
 {
@@ -9,13 +9,16 @@ namespace LeaveManagementSystem.MappingProfiles
     {
         public AutoMapperProfile()
         {
-            // Mapping from LeaveType to IndexVM
+            // Mapping from LeaveType to IndexVM (GET)
             CreateMap<LeaveType, LeaveTypeReadOnlyVM>();
             // In case we needed to change destination property name to match the prop in original
             //   .ForMember(dest => dest.NumberOfDays, opt => opt.MapFrom(src => src.NumberOfDays));
 
-            // Covert data coming from LeaveTypeCreateVM to LeaveType, then send it to the DB.
+            // Covert data coming from LeaveTypeCreateVM to LeaveType, then send it to the DB. (POST)
             CreateMap<LeaveTypeCreateVM, LeaveType>();
+
+            // Edit   (GET and POST)            
+            CreateMap<LeaveTypeEditVM, LeaveType>().ReverseMap();
         }
     }
 }

@@ -10,8 +10,6 @@ E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSyste
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Azure.Core.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Azure.Identity.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Humanizer.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
@@ -26,16 +24,7 @@ E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSyste
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 E:\WebDev\fullstacks\practice\Trevoir\LeaveManagementSystem\LeaveManagementSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll

@@ -1,16 +1,19 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LeaveManagementSystem.Models.LeaveTypes
 {
-    public class LeaveTypeCreateVM
+    public class LeaveTypeEditVM
     {
-        #region Properties        
-        [DisplayName("Leave Type")]
-        [Column(TypeName = "NVARCHAR(150)")]
+
+        #region Properties
         [Required]
+        public int Id { get; set; }
+
+        [Required]
+        [DisplayName("Leave Type")]
         [Length(4, 30, ErrorMessage = "Leave Type must between {1} and {2} characters long.")]
+        //[MaxLength(length: 30, ErrorMessage = "{0} length cannot exceed {1} characters.")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "{0} is required!")]
