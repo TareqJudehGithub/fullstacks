@@ -1,4 +1,5 @@
 using LeaveManagementSystem.Data;
+using LeaveManagementSystem.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
@@ -10,6 +11,11 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+// Injecting Service Layer into other classes
+//<contract, implementation>
+builder.Services.AddScoped<ILeaveTypesServices, LeaveTypesServices>();
+
 
 // Adding Automapper to Dependency Injection container:
 builder.Services.AddAutoMapper(cfg => { }, Assembly.GetExecutingAssembly());

@@ -83,7 +83,6 @@ namespace LeaveManagementSystem.Controllers
         [ValidateAntiForgeryToken]
 
         // Before View Models
-
         //public async Task<IActionResult> Create([Bind("Id,Name,NumberOfDays")] LeaveType leaveType)
         //{
         //    if (ModelState.IsValid)
@@ -115,16 +114,8 @@ namespace LeaveManagementSystem.Controllers
                     );
             }
 
-
             if (ModelState.IsValid)
             {
-                var leaveTypes = await _context.LeaveTypes
-                    .Select(q => q.Name)
-                    .ToListAsync();
-                foreach (var item in leaveTypes)
-                {
-                    Console.WriteLine(leaveTypes);
-                }
 
                 // Convert data from LeaveTypeCreateVM to LeaveType using AutoMapper
                 var leaveType = _mapper.Map<LeaveType>(model);
@@ -144,7 +135,6 @@ namespace LeaveManagementSystem.Controllers
             {
                 return NotFound();
             }
-
             var leaveType = await _context.LeaveTypes.FindAsync(id);
             if (leaveType == null)
             {
