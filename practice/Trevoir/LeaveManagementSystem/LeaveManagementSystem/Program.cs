@@ -12,12 +12,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-// Injecting Service Layer into other classes
+// Injecting(registering) Service Layer into other classes
 //<contract, implementation>
 builder.Services.AddScoped<ILeaveTypesServices, LeaveTypesServices>();
 
-
-// Adding Automapper to Dependency Injection container:
+// registering AutoMapper to Dependency Injection container:
 builder.Services.AddAutoMapper(cfg => { }, Assembly.GetExecutingAssembly());
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
